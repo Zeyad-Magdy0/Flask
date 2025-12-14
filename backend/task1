@@ -1,0 +1,62 @@
+#q1
+
+bill = float(input("insert bill: "))
+
+each_person = (bill * 1.15) / 2
+tip = bill * 0.15
+
+print("Each person needs to pay:", each_person)
+print("Tip amount:", tip)
+
+
+#q2
+
+num1 = float(input("Enter the number1: "))
+num2 = float(input("Enter the number2: "))
+print("The result is:", {num1 / num2})
+
+#q3
+
+word1 = "How"
+word2 = "do"
+word3 = "you"
+word4 = "like"
+word5 = "{}" 
+word6 = "so"
+word7 = "far?"
+sentence = f"{word1} {word2} {word3} {word4} {word5} {word6} {word7}"
+print(sentence.format("Python"))
+
+#q4
+
+word1 = "How"
+word2 = "do"
+word3 = "you"
+word4 = "like"
+word5 = "{}" 
+word6 = "so"
+word7 = "far?"
+
+word7 = word7.replace("?", "!")
+sentence = f"{word1} {word2} {word3} {word4} {word5} {word6} {word7}"
+print(sentence.format("Java"))
+
+
+#q5
+
+user_input = input("Please enter a statement: ")
+print("The length of your statement is:", len(user_input))
+
+#q6
+
+full_name = input("Enter your Full Name: ")
+age = input("Enter your Age: ")
+faculty = input("Enter your Faculty: ")
+birth_date = input("Enter your Birth Date: ")
+grad_year = input("Enter your Graduation Year: ")
+
+print("Full Name:", full_name)
+print("Age:", age)
+print("Faculty:", faculty)
+print("Birth Date:", birth_date)
+print("Graduation Year:", grad_year)
